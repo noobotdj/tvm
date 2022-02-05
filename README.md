@@ -1,13 +1,15 @@
 # How to use
 [guide-level-explanation]: #guide-level-explanation
 
+Please build and install this repo following the [install guide](https://tvm.apache.org/docs/install/index.html) of TVM.
+
 We integrate our search method into Auto-Scheduler. Therefore, users only need to change some of the parameters to enable our search method.
 
 We use the code below in [Auto-scheduling a Neural Network for NVIDIA GPU](https://tvm.apache.org/docs/how_to/tune_with_autoscheduler/tune_network_cuda.html#begin-tuning) as an example:
 
 ```python
 #...
-
+()
 # load all task and into tuner
 tuner = auto_scheduler.TaskScheduler(tasks, task_weights)
 
